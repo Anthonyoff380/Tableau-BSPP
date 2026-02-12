@@ -630,7 +630,7 @@
                         <th>P/C INC1</th>
                         <th>C/A SAV2</th>
                         <th>C/A MEA</th>
-                        <th>CATTE</th>
+                        <th>CT1</th>
                         <!-- Commandements -->
                         <th>CCGI</th>
                         <th>OGC</th>
@@ -1048,7 +1048,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: 'Formateur', SAV: 'Formateur', INC: 'Apte', BMCVL: 'Formateur',
                     BMCPL: '', SPE: '', PEC: 'Formateur', PECCH: '',
-                    PCINC1: 'Formateur', CASAV2: '', CAMEA: 'Apte', CATTE: 'Apte',
+                    PCINC1: 'Formateur', CASAV2: '', CAMEA: 'Apte', CT1: 'Apte',
                     CCGI: 'Apte', OGC: 'Recyclage', CDU: '', GRIMP: 'Apte',
                     DIVSANTE: '', RSMU: 'Apte', BCOM: 'Apte', GELD: 'RESP'
                 }
@@ -1063,7 +1063,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: 'Formateur', SAV: 'Formateur', INC: 'Apte', BMCVL: 'Formateur',
                     BMCPL: '', SPE: '', PEC: 'Formateur', PECCH: '',
-                    PCINC1: 'Formateur', CASAV2: 'Apte', CAMEA: '', CATTE: '',
+                    PCINC1: 'Formateur', CASAV2: 'Apte', CAMEA: '', CT1: '',
                     CCGI: '', OGC: '', CDU: '', GRIMP: '',
                     DIVSANTE: '', RSMU: '', BCOM: '', GELD: ''
                 }
@@ -1078,7 +1078,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: 'Apte', SAV: 'Apte', INC: 'Apte', BMCVL: 'Apte',
                     BMCPL: 'Apte', SPE: '', PEC: 'Formateur', PECCH: '',
-                    PCINC1: 'Apte', CASAV2: 'Apte', CAMEA: 'Apte', CATTE: 'Apte',
+                    PCINC1: 'Apte', CASAV2: 'Apte', CAMEA: 'Apte', CT1: 'Apte',
                     CCGI: '', OGC: '', CDU: '', GRIMP: '',
                     DIVSANTE: '', RSMU: 'Apte', BCOM: 'RESP', GELD: 'Apte'
                 }
@@ -1093,7 +1093,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: 'Apte', SAV: 'Apte', INC: 'Apte', BMCVL: 'Apte',
                     BMCPL: 'Apte', SPE: '', PEC: 'Prévu', PECCH: 'Prévu',
-                    PCINC1: 'Apte', CASAV2: '', CAMEA: 'Apte', CATTE: '',
+                    PCINC1: 'Apte', CASAV2: '', CAMEA: 'Apte', CT1: '',
                     CCGI: '', OGC: '', CDU: '', GRIMP: '',
                     DIVSANTE: '', RSMU: '', BCOM: '', GELD: ''
                 }
@@ -1108,7 +1108,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: 'Apte', SAV: 'Apte', INC: 'Apte', BMCVL: 'Apte',
                     BMCPL: 'Apte', SPE: 'Apte', PEC: 'Prévu', PECCH: '',
-                    PCINC1: 'Apte', CASAV2: '', CAMEA: 'Apte', CATTE: '',
+                    PCINC1: 'Apte', CASAV2: '', CAMEA: 'Apte', CT1: '',
                     CCGI: '', OGC: '', CDU: '', GRIMP: '',
                     DIVSANTE: '', RSMU: 'Apte', BCOM: '', GELD: ''
                 }
@@ -1123,7 +1123,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: 'Apte', SAV: '', INC: '', BMCVL: 'Apte',
                     BMCPL: 'Apte', SPE: '', PEC: 'Apte', PECCH: '',
-                    PCINC1: '', CASAV2: 'Apte', CAMEA: '', CATTE: '',
+                    PCINC1: '', CASAV2: 'Apte', CAMEA: '', CT1: '',
                     CCGI: '', OGC: '', CDU: '', GRIMP: '',
                     DIVSANTE: 'RESP', RSMU: '', BCOM: '', GELD: ''
                 }
@@ -1204,7 +1204,7 @@ const GRADE_TO_GALON = {
                 formations: {
                     FI: '', SAV: '', INC: '', BMCVL: '',
                     BMCPL: '', SPE: '', PEC: '', PECCH: '',
-                    PCINC1: '', CASAV2: '', CAMEA: '', CATTE: '',
+                    PCINC1: '', CASAV2: '', CAMEA: '', CT1: '',
                     CCGI: '', OGC: '', CDU: '', GRIMP: '',
                     DIVSANTE: '', RSMU: '', BCOM: '', GELD: ''
                 }
@@ -1333,7 +1333,7 @@ const GRADE_TO_GALON = {
 
                 // Toutes les formations (avec les nouvelles colonnes)
                 const formationKeys = ['FI', 'SAV', 'INC', 'BMCVL', 'BMCPL', 'SPE', 
-                                      'PEC', 'PECCH', 'PCINC1', 'CASAV2', 'CAMEA', 'CATTE', 
+                                      'PEC', 'PECCH', 'PCINC1', 'CASAV2', 'CAMEA', 'CT1', 
                                       'CCGI', 'OGC', 'CDU', 'GRIMP', 'DIVSANTE', 'RSMU', 'BCOM', 'GELD'];
 
                 formationKeys.forEach(key => {
